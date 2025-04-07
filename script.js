@@ -11,6 +11,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 poemMap.setView([40.7128, -74.0060], 16);
 
 // Example marker
-const timeSquare = L.marker([51.505, -0.09]).addTo(poemMap)
+const timeSquare = L.marker([40.7580, -73.9855]).addTo(poemMap)
     .bindPopup('A poetic marker!')
     .openPopup();
